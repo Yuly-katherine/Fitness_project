@@ -179,3 +179,72 @@
     margin: 20px auto;
   }
 }
+
+/*------------- contain nutrición --------------*/
+
+.fitness-contain-nutricion__h2{
+    background-image: url("./img/nutricion/alimentos.jpg");
+    object-fit: cover;
+    object-position: center;
+    height: 700px;
+    font-family: 'Rubik', sans-serif;
+    color:#000;
+    font-size: 3.3rem;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+}
+
+.fitness-contain-nutricion__h2 span{
+    align-self: center;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+.fitness-contain-articulos__h2{
+    background-color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color:rgb(211, 34, 34);
+    padding: 40px 0;
+}
+
+.fitness-contain-articulos__h2 span{
+    color: #fff;
+}
+
+.card{
+    background-color: #000;
+    color:#fff;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:160px;
+}
+
+.card-body h5{
+    /* text-align: justify; */
+}
+
+.card-body a{
+    width: 100%;
+    align-self: flex-end;
+    background-color: rgb(211, 34, 34);
+    border: 1px solid  rgb(211, 34, 34);
+}
+
+.card-body a:hover{
+    background-color: rgb(175, 33, 33);
+    border: 1px solid  rgb(175, 33, 33);
+}
+
+
+.fitness-contain-cards {
+    background-color: #000;
+}
