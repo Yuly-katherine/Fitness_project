@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*------------- navbar --------------*/
+
+.nav-item a {
+    color: #fff;
+    margin-right: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item :hover{
+    color: rgb(211, 34, 34);
+}
+
+.carousel-inner{
+    background-color: #000;
+}
+
+/*------------- contain mail --------------*/
+
+.fitness-contain-mail{
+    background-color: #000;
+}
+
+.fitness-contain-mail__h2{
+    color:rgb(211, 34, 34);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.fitness-contain-mail__h2 span{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;  
+}
+
+.fitness-contain-mail__text{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px; 
+}
+.fitness-contain-mail__img{
+    background-color:rgb(211, 34, 34);
+    clip-path: polygon(0 38%, 100% 0, 100% 64%, 0% 100%);
+    height: 300px;
+    display: flex;
+}
+
+.fitness-contain-mail__input{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/*------------- contain asesoria --------------*/
+
+.fitness-contain-asesoria{
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 40px;
+}
+
+@media(max-width:870px){
+    .fitness-contain-asesoria{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .fitness-contain-asesoria__img{
+        align-self:center;
+    }
+    .fitness-contain-asesoria__p{
+        margin: 0 auto;
+    }
+    .fitness-contain-asesoria__h2{
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+    }
+}
+.fitness-contain-asesoria__h2{
+    font-family: 'Rubik', sans-serif;
+    color:rgb(211, 34, 34);
+    padding-top: 40px;
+}
+
+.fitness-contain-asesoria__h2 span{
+    color: #fff;  
+}
+
+.fitness-contain-asesoria__img{
+    justify-self: center;
+    padding-top:50px;
+    width: 420px;
+    height: 380px;
+}
+
+.fitness-contain-asesoria__p{
+    text-align:justify;
+    justify-self: center;
+    color: #fff;
+    width: 90%;
+}
+
+/*------------- contain footer --------------*/
+
+.fitness-contain-imagen{
+    background-image: url("./img/message.jpg");
+    object-fit: contain;
+    object-position: bottom;
+    height:700px;
+    width: 100%;
+    position:relative;
+    display:flex;
+}
+
+.fitness-contain-imagen__h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    margin: 30px auto;
+    color:rgb(211, 34, 34);
+    padding-top: 40px;
+}
+
+.fitness-contain-imagen__h2 span{
+    color: #fff;  
+}
+
+
+.fitness-contain-footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height:180px;
+    display:flex;
+    background-color:black;
+    clip-path: polygon(0 27%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.fitness-contain-footer__social{
+    align-self: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.fitness-contain-footer__social button{
+    color: #fff;
+    background-color: black;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius:50%;
+    margin-left: 10px;
+}
+
+.fitness-contain-footer__social button:hover{
+    opacity: 0.6;
+}
+
+.fitness-contain-footer__img{
+    align-self: center;
+    margin-right: 20px;
+}
+
+@media(max-width:470px){
+  .fitness-contain-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:250px;
+  }
+  .fitness-contain-footer__social{
+    margin: 20px auto;
+  }
+}
