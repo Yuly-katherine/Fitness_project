@@ -312,7 +312,7 @@ h2{
 /*------------- contain sobre mi --------------*/
 
 .fitness-contain-me__h2{
-    background-image: url("./img/sobreMi/me.jpg");
+    background-image: url("./img/sobreMi/me1.jpg");
     object-fit: cover;
     object-position: center;
     height: 100vh;
@@ -321,6 +321,13 @@ h2{
     font-weight: bold;
     display:flex;
     justify-content: center;
+}
+
+@media(max-width:750px){
+    .fitness-contain-me__h2{
+        background-image: url("./img/sobreMi/me2.jpg");
+        height: 400px;
+    }
 }
 
 .fitness-contain-me__h2 span{
