@@ -87,14 +87,42 @@
         </div>
       </div>
     </nav>
-    <!-------------- home contain --------------->
+    <!-------------- carousel boostrap --------------->
     <main>
-      <section>
-        <div class="fitness-contain-me" id="sobreMi">
-          <h2 class="fitness-contain-me__h2"></h2>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/home1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="../img/home3.jpg" class="d-block w-100" alt="..." />
+          </div>
         </div>
-      </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
+      <!---------------- contain  ----------------------->
       <!-------------- de donde sale fitnessReal  --------------->
 
       <section>
@@ -202,9 +230,9 @@
         </div>
       </section>
 
-       <!-------------- habla sobre la suplementación  --------------->
+      <!-------------- habla sobre la suplementación  --------------->
 
-       <section>
+      <section>
         <div class="fitness-contain-aboutMe">
           <h2
             class="fitness-contain-aboutMe__h2 wow animate__animated animate__fadeInDown"
@@ -217,12 +245,26 @@
           <p
             class="fitness-contain-aboutMe__text wow animate__animated animate__fadeInDown"
           >
-          Buena pregunta. Parece raro que alguien del mundo del fitness no colabore con ninguna empresa de suplementación, pero como habrás podido comprobar no hay ni un anuncio en la web y no tengo código de descuento de ninguna marca. La razón es muy sencilla: mi intención es aportar la información más objetiva posible sobre cualquier temática dentro del fitness y, en mi opinión, estar atado a una empresa, tener un código de descuento y prostituirlo por todas las redes sociales incesantemente resta mucha transparencia y credibilidad.. Sobre todo cuando vas cambiando de marca constantemente.
+            Buena pregunta. Parece raro que alguien del mundo del fitness no
+            colabore con ninguna empresa de suplementación, pero como habrás
+            podido comprobar no hay ni un anuncio en la web y no tengo código de
+            descuento de ninguna marca. La razón es muy sencilla: mi intención
+            es aportar la información más objetiva posible sobre cualquier
+            temática dentro del fitness y, en mi opinión, estar atado a una
+            empresa, tener un código de descuento y prostituirlo por todas las
+            redes sociales incesantemente resta mucha transparencia y
+            credibilidad.. Sobre todo cuando vas cambiando de marca
+            constantemente.
           </p>
           <p
             class="fitness-contain-aboutMe__text wow animate__animated animate__fadeInDown"
           >
-          A modo de anécdota, la única forma de colaboración posible sería si existiera alguna empresa que únicamente tuviera en su catálogo suplementos con evidencia científica y se negara a vender todos los demás que no sirven para nada. Pero creo que no existe ninguna de estas características, así que algún día si me animo crearé mi propia empresa al respecto. Ya veremos ^^
+            A modo de anécdota, la única forma de colaboración posible sería si
+            existiera alguna empresa que únicamente tuviera en su catálogo
+            suplementos con evidencia científica y se negara a vender todos los
+            demás que no sirven para nada. Pero creo que no existe ninguna de
+            estas características, así que algún día si me animo crearé mi
+            propia empresa al respecto. Ya veremos ^^
           </p>
           <p
             class="fitness-contain-aboutMe__text wow animate__animated animate__fadeInDown"
@@ -300,37 +342,34 @@
           </p>
         </div>
       </section>
-
-      <!-------------- nutrición footer  --------------->
-
-      <footer class="fitness-contain-imagen">
-        <h2
-          class="fitness-contain-imagen__h2 wow animate__animated animate__fadeInDown"
-        >
-          CONQUISTA
-          <span class="wow animate__animated animate__fadeInDown"
-            >TU CUERPO</span
-          >
-        </h2>
-        <div class="fitness-contain-footer">
-          <div
-            class="fitness-contain-footer__social wow animate__animated animate__fadeInDown"
-          >
-            <button><i class="bi bi-instagram"></i></button>
-            <button><i class="bi bi-facebook"></i></button>
-            <button><i class="bi bi-twitter"></i></button>
-            <button><i class="bi bi-spotify"></i></button>
-          </div>
-          <img
-            class="fitness-contain-footer__img"
-            src="https://fitnessreal.es/wp-content/themes/fitnessreal/img/elementos/logo.png"
-            alt="fitnessreal"
-            width="200px"
-            height="100px"
-          />
-        </div>
-      </footer>
     </main>
+    <!-------------- nutrición footer  --------------->
+
+    <footer class="fitness-contain-imagen">
+      <h2
+        class="fitness-contain-imagen__h2 wow animate__animated animate__fadeInDown"
+      >
+        CONQUISTA
+        <span class="wow animate__animated animate__fadeInDown">TU CUERPO</span>
+      </h2>
+      <div class="fitness-contain-footer">
+        <div
+          class="fitness-contain-footer__social wow animate__animated animate__fadeInDown"
+        >
+          <button><i class="bi bi-instagram"></i></button>
+          <button><i class="bi bi-facebook"></i></button>
+          <button><i class="bi bi-twitter"></i></button>
+          <button><i class="bi bi-spotify"></i></button>
+        </div>
+        <img
+          class="fitness-contain-footer__img"
+          src="https://fitnessreal.es/wp-content/themes/fitnessreal/img/elementos/logo.png"
+          alt="fitnessreal"
+          width="200px"
+          height="100px"
+        />
+      </div>
+    </footer>
     <!-- JavaScript boostrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
